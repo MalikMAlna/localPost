@@ -5,8 +5,8 @@ localPost is a simple, easy-to-use substitution for [Postman](https://www.postma
 
     $ git clone https://github.com/MalikMAlna/localPost.git
     $ cd localPost
-    $ npm install
-    $ npm run dev
+    $ Open with liveserver
+ [liveserver for vscode](https://ritwickdey.github.io/vscode-live-server/)
     
 ## Features
 
