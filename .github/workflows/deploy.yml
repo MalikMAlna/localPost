@@ -17,4 +17,4 @@ jobs:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           publish_dir: ./
           user_name: "MalikMAlna"
-          user_email: "jimalik2525@gmail.com"
+          user_email: "MalikMAlna@users.noreply.github.com"
