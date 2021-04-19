@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [14.x]
+        node-version: [12.x]
     steps:
       - uses: actions/checkout@v1
       - name: Deploy to gh-pages
@@ -16,5 +16,4 @@ jobs:
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           publish_dir: ./
-          user_name: "MalikMAlna"
-          user_email: "MalikMAlna@users.noreply.github.com"
+          allow_empty_commit: true
